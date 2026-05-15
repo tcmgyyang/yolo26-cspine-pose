@@ -1,0 +1,40 @@
+# Python build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+
+# Privacy / data — NEVER COMMIT
+dataset/
+runs/
+loso_configs/image_lists/
+loso_configs/image_lists.bak_*/
+center_lists/
+center_lists.bak_*/
+**/*_train.txt
+**/*_val.txt
+**/*_test.txt
+**/patient_*.csv
+**/demographics/
+
+# Model weights (separately archived; not in source tree)
+*.pt
+*.pth
+*.onnx
+
+# Logs / scratch
+*.log
+diagnose.log
+runs/_rerun_logs/
+backup_before_migration/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db

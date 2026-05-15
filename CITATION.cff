@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+# Citation metadata for this work. The fields below are placeholders that
+# will be populated upon paper acceptance. The upstream Ultralytics
+# framework, which this code vendors and extends, is cited separately in
+# the `references` section.
+
+title: "Cervical Spine Keypoint Detection with YOLO26-Pose"
+message: "If you use this code, please cite the accompanying paper (to be filled upon acceptance) AND the upstream Ultralytics framework."
+type: software
+authors:
+  - given-names: TBD
+    family-names: TBD
+license: AGPL-3.0
+repository-code: "<repository-url-to-be-filled>"
+date-released: "TBD"
+
+references:
+  - type: software
+    title: "Ultralytics YOLO"
+    authors:
+      - given-names: Glenn
+        family-names: Jocher
+        affiliation: Ultralytics
+        orcid: "https://orcid.org/0000-0001-5950-6979"
+      - given-names: Jing
+        family-names: Qiu
+        affiliation: Ultralytics
+        orcid: "https://orcid.org/0000-0003-3783-7069"
+      - given-names: Ayush
+        family-names: Chaurasia
+        affiliation: Ultralytics
+        orcid: "https://orcid.org/0000-0002-7603-6750"
+    url: "https://github.com/ultralytics/ultralytics"
+    license: AGPL-3.0
