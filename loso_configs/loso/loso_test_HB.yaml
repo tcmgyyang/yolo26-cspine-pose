@@ -1,0 +1,10 @@
+train: ./loso_configs/image_lists/loso_HB_train.txt
+val: ./loso_configs/image_lists/loso_HB_val.txt
+test: ./loso_configs/image_lists/loso_HB_test.txt
+nc: 1
+kpt_shape:
+- 35
+- 3
+flip_idx: []
+names:
+  0: cervical_spine

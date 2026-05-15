@@ -1,0 +1,10 @@
+train: ./loso_configs/image_lists/single_SX_train.txt
+val: ./loso_configs/image_lists/single_SX_val.txt
+test: ./loso_configs/image_lists/single_SX_test.txt
+nc: 1
+kpt_shape:
+- 35
+- 3
+flip_idx: []
+names:
+  0: cervical_spine
